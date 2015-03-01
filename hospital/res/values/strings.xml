@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World!</string>
+    <string name="app_name">Hospital</string>
+    <string name="logonName">用户名 : </string>
+    <string name="logonPass">密    码 : </string>
+    <string name="logonButton">登录</string>
+    <string name="logonClose">退出</string>
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+    <string name="RFID">RFID</string>
+
+    <string-array name="logonArray">
+        <item>医生</item>
+        <item>护士</item>
+        <item>病人</item>
+        <item>管理员</item>
+    </string-array>
+    <string-array name="sexArray">
+        <item>男</item>
+        <item>女</item>
+    </string-array>
+
+    <string name="userName">姓名 :</string>
+    <string name="userIdNum">身份证 :</string>
+    <string name="userPhone">电话 :</string>
+    <string name="userDes">说明 :</string>
+    <string name="userAvatar">头像</string>
+
+    <string-array name="departmentArray">
+        <item>科室</item>
+    </string-array>
+
+    <string name="avatarDir">mnt/sdcard/hospital/avatar</string>
+    <string name="avatarDoctorDir">mnt/sdcard/hospital/avatar/doctor</string>
+    <string name="avatarNurseDir">mnt/sdcard/hospital/avatar/nurse</string>
+    <string name="avatarPatientDir">mnt/sdcard/hospital/avatar/patient</string>
+    <string name="avatarDefaultPNG">mnt/sdcard/hospital/avatar/avatar.png</string>
+    <string name="avatarTempJPEG">mnt/sdcard/hospital/avatar/temp.jpg</string>
+    <string name="department">科室 : </string>
+    <string name="departmentName">名称 : </string>
+    <string name="departmentPhone">电话 : </string>
+    <string name="drugCode">药物编码 : </string>
+    <string name="drugName">药物名称 : </string>
+    <string name="drugDes">药物说明 : </string>
+    <string name="drugUnit">药物单位 (毫克) : </string>
+    <string name="drugPrice">药物单价 (元) : </string>
+    <string name="stockNum">药物库存 (个) : </string>
+    <string name="passwordOne">输入新密码 : </string>
+    <string name="passwordTwo">再次输入密码 : </string>
+    <string name="userAdmin">用户管理</string>
+    <string name="departmentAdmin">科室管理</string>
+    <string name="drugAdmin">药物管理</string>
+    <string name="caseAdmin">病历管理</string>
+    <string name="passwordAdmin">密码修改</string>
+    <string name="casePatientLogonName">病人账号 : </string>
+    <string name="casePatientName">病人名字 : </string>
+    <string name="casePatientDes">病症 : </string>
+    <string name="casePatientDoctorLogonName">医生账号 : </string>
+    <string name="casePatientDoctorName">医生名字 : </string>
+    <string name="casePatientDepartment">科室 : </string>
+    <string name="casePatientBed">床位 : </string>
+    <string name="casePatientAdmission">入院日期 : </string>
+    <string name="casePatientDischarge">出院日期 : </string>
+    <string name="casePatientCost">费用合计 (元) : </string>
+    <string name="doctorPatient">挂号病人</string>
+    <string name="doctorDrug">药物查看</string>
+    <string name="nursePatient">挂号病人</string>
+    <string name="nurseDrug">药物查看</string>
+    <string name="patientDoctor">所属医生</string>
+    <string name="patientCase">个人病历</string>
+
+    <string-array name="testArray">
+        <item>test</item>
+    </string-array>
+
+</resources>

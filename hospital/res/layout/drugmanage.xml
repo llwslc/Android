@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dip" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/drugCode_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:text="@string/drugCode"
+                android:textColor="#ffffff"
+                android:textSize="24dip" />
+
+            <EditText
+                android:id="@+id/drugCode_edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:inputType="text" />
+
+            <TextView
+                android:id="@+id/drugName_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:text="@string/drugName"
+                android:textColor="#ffffff"
+                android:textSize="24dip" />
+
+            <EditText
+                android:id="@+id/drugName_edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:inputType="text" />
+
+            <TextView
+                android:id="@+id/drugUnit_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:text="@string/drugUnit"
+                android:textColor="#ffffff"
+                android:textSize="24dip" />
+
+            <EditText
+                android:id="@+id/drugUnit_edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:inputType="number" />
+
+            <TextView
+                android:id="@+id/drugPrice_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:text="@string/drugPrice"
+                android:textColor="#ffffff"
+                android:textSize="24dip" />
+
+            <EditText
+                android:id="@+id/drugPrice_edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:inputType="number" />
+
+            <TextView
+                android:id="@+id/stockNum_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:text="@string/stockNum"
+                android:textColor="#ffffff"
+                android:textSize="24dip" />
+
+            <EditText
+                android:id="@+id/stockNum_edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:inputType="number" />
+
+            <TextView
+                android:id="@+id/drugDes_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:text="@string/drugDes"
+                android:textColor="#ffffff"
+                android:textSize="24dip" />
+
+            <EditText
+                android:id="@+id/drugDes_edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:inputType="textMultiLine"
+                android:maxHeight="200dip"
+                android:minHeight="100dip" />
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/null_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:layout_marginTop="10dip"
+        android:text=""
+        android:textColor="#ffffff"
+        android:textSize="1dip" />
+
+</LinearLayout>

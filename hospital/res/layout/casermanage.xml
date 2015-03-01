@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dip" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/casePatientLogonName_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:text="@string/casePatientLogonName"
+                android:textColor="#ffffff"
+                android:textSize="24dip" />
+
+            <Spinner
+                android:id="@+id/casePatientLogonName_spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:entries="@array/testArray" />
+
+            <TextView
+                android:id="@+id/casePatientName_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:text="@string/casePatientName"
+                android:textColor="#ffffff"
+                android:textSize="24dip" />
+
+            <EditText
+                android:id="@+id/casePatientName_edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:inputType="text" />
+
+            <TextView
+                android:id="@+id/casePatientDes_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:text="@string/casePatientDes"
+                android:textColor="#ffffff"
+                android:textSize="24dip" />
+
+            <EditText
+                android:id="@+id/casePatientDes_edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:inputType="textMultiLine"
+                android:maxHeight="200dip"
+                android:minHeight="100dip"
+                android:scrollHorizontally="false" />
+
+            <TextView
+                android:id="@+id/casePatientDoctorLogonName_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:text="@string/casePatientDoctorLogonName"
+                android:textColor="#ffffff"
+                android:textSize="24dip" />
+
+            <Spinner
+                android:id="@+id/casePatientDoctor_spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:entries="@array/testArray" />
+
+            <TextView
+                android:id="@+id/casePatientDoctorName_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:text="@string/casePatientDoctorName"
+                android:textColor="#ffffff"
+                android:textSize="24dip" />
+
+            <EditText
+                android:id="@+id/casePatientDoctorName_edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:inputType="text" />
+
+            <TextView
+                android:id="@+id/casePatientDepartment_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:text="@string/casePatientDepartment"
+                android:textColor="#ffffff"
+                android:textSize="24dip" />
+
+            <Spinner
+                android:id="@+id/casePatientDepartment_spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:entries="@array/testArray" />
+
+            <TextView
+                android:id="@+id/casePatientBed_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:text="@string/casePatientBed"
+                android:textColor="#ffffff"
+                android:textSize="24dip" />
+
+            <EditText
+                android:id="@+id/casePatientBed_edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:inputType="text" />
+
+            <TextView
+                android:id="@+id/casePatientAdmission_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:text="@string/casePatientAdmission"
+                android:textColor="#ffffff"
+                android:textSize="24dip" />
+
+            <DatePicker
+                android:id="@+id/casePatientAdmission_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip" >
+            </DatePicker>
+
+            <TextView
+                android:id="@+id/casePatientDischarge_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:text="@string/casePatientDischarge"
+                android:textColor="#ffffff"
+                android:textSize="24dip" />
+
+            <DatePicker
+                android:id="@+id/casePatientDischarge_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip" >
+            </DatePicker>
+
+            <TextView
+                android:id="@+id/casePatientCost_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:text="@string/casePatientCost"
+                android:textColor="#ffffff"
+                android:textSize="24dip" />
+
+            <EditText
+                android:id="@+id/casePatientCost_edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:inputType="number" />
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/null_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:layout_marginTop="10dip"
+        android:text=""
+        android:textColor="#ffffff"
+        android:textSize="1dip" />
+
+</LinearLayout>
