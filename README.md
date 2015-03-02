@@ -1,8 +1,8 @@
 # hospital
 
-![image](https://github.com/llwslc/android/screenshots/hospital.jpg)
+![image](https://github.com/llwslc/Android/blob/master/Screenshots/hospital.jpg)
 
 
-Ò»¸ö¹ÜÀíÆ½Ì¨£¬Ö÷ÒªÊµÏÖÁË»ù´¡¿Ø¼şµÄÊ¹ÓÃ£¬Êı¾İ¿âµÄÁ¬½Ó£¬Ò³ÃæµÄÌø×ªµÈ¼òµ¥¹¦ÄÜ¡£
+ä¸€ä¸ªç®¡ç†å¹³å°ï¼Œä¸»è¦å®ç°äº†åŸºç¡€æ§ä»¶çš„ä½¿ç”¨ï¼Œæ•°æ®åº“çš„è¿æ¥ï¼Œé¡µé¢çš„è·³è½¬ç­‰ç®€å•åŠŸèƒ½ã€‚
 
-ÏêÏ¸¹¦ÄÜ²Î¼ûhttps://github.com/llwslc/Android/hospital/res/drawable-hdpi/hospital.txt
+è¯¦ç»†åŠŸèƒ½å‚è§![readme](https://github.com/llwslc/Android/blob/master/hospital/res/drawable-hdpi/hospital.txt)
