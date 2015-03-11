@@ -1,4 +1,4 @@
-# hospital
+﻿# hospital
 
 ![image](https://github.com/llwslc/Android/blob/master/Screenshots/hospital.jpg)
 
@@ -7,3 +7,8 @@
 
 
 详细功能参见[readme](https://github.com/llwslc/Android/blob/master/hospital/res/drawable-hdpi/hospital.txt)
+
+
+# myGallery
+
+![image](https://github.com/llwslc/Android/blob/master/Screenshots/myGallery.jpg)

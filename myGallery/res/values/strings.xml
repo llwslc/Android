@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, MyGalleryActivity!</string>
+    <string name="app_name">MyGallery</string>
+    <string name="logonName">用户名 : </string>
+    <string name="logonPass">密    码 : </string>
+    <string name="logonButton">登录</string>
+    <string name="logonClose">退出</string>
+    <string name="space"></string>
+    <string name="passwordOne">输入新密码 : </string>
+    <string name="passwordTwo">再次输入密码 : </string>
+    <string name="nameNew">输入用户名: : </string>
+    <string name="passwordNew">输入密码 : </string>
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+
+</resources>
