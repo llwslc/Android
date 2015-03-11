@@ -12,3 +12,7 @@
 # myGallery
 
 ![image](https://github.com/llwslc/Android/blob/master/Screenshots/myGallery.jpg)
+
+一个图片浏览管理软件
+
+
